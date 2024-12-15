@@ -163,7 +163,7 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "npx concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
     "install-client": "npm install --prefix frontend",
